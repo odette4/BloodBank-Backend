@@ -12,6 +12,8 @@ dotenv.config({path:'./.env'});
 
 const app=express();
 
+//express
+
 app.use(cors());
 app.use(bodyParser.json());
 app.use("/bloodbank/v1/user",userRouter);
