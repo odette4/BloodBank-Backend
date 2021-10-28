@@ -1,4 +1,4 @@
-import DonationInfo from "../Models/DonationModel";
+import DonationInfo from "../Models/DonationModel.js";
 
 class donationController{
 

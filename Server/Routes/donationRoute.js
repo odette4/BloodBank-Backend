@@ -1,7 +1,7 @@
 import express from "express";
-import donationController from "../Controllers/donationController";
-import verifyAccess from "../Middlewares/verifyAccess";
-import verifyToken from "../Middlewares/verifyToken";
+import donationController from "../Controllers/donationController.js";
+import verifyAccess from "../Middlewares/verifyAccess.js";
+import verifyToken from "../Middlewares/verifyToken.js";
 
 
 const donationRouter=express.Router();

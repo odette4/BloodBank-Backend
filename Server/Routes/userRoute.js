@@ -1,9 +1,9 @@
 import express from "express";
-import userController from "../Controllers/userController";
-import DataChecker from "../Middlewares/dataChecker";
-import verifyAccess from "../Middlewares/verifyAccess";
-import Validator from "../Middlewares/validator";
-import verifyToken from "../Middlewares/verifyToken";
+import userController from "../Controllers/userController.js";
+import DataChecker from "../Middlewares/dataChecker.js";
+import verifyAccess from "../Middlewares/verifyAccess.js";
+import Validator from "../Middlewares/validator.js";
+import verifyToken from "../Middlewares/verifyToken.js";
 
 
 
