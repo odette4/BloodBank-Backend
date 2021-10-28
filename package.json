@@ -1,0 +1,45 @@
+{
+  "name": "blooddonation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": " test ",
+    "start": "babel-node ./server.js",
+    "dev-start": "nodemon --exec babel-node ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/odette4/BloodBank-Backend.git"
+  },
+  "keywords": [
+    "Api",
+    "DB"
+  ],
+  "author": "Vivine , Odette, Brandine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/odette4/BloodBank-Backend/issues"
+  },
+  "homepage": "https://github.com/odette4/BloodBank-Backend#readme",
+  "dependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.14.8",
+    "@babel/node": "^7.14.7",
+    "@babel/plugin-transform-runtime": "^7.12.10",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/register": "^7.12.10",
+    "babel-core": "^6.26.3",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.13.3",
+    "nodemon": "^2.0.14"
+  }
+}
