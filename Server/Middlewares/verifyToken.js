@@ -1,4 +1,4 @@
-import TokenAuth from "../Helpers/tokenAuth";
+import TokenAuth from "../Helpers/tokenAuth.js";
 
 
 const verifyToken=async (req,res,next)=>{

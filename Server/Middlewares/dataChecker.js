@@ -1,4 +1,4 @@
-import UserInfo from "../Models/userModel";
+import UserInfo from "../Models/userModel.js";
 
 
 class DataChecker{

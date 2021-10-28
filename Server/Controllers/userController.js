@@ -1,5 +1,5 @@
-import UserInfo from "../Models/userModel";
-import TokenAuth from "../Helpers/tokenAuth";
+import UserInfo from "../Models/userModel.js";
+import TokenAuth from "../Helpers/tokenAuth.js";
 import bcrypt from "bcrypt";
 
 class userController {

@@ -1,9 +1,9 @@
 import express from "express";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
-import userRouter from "./Server/Routes/userRoute";
+import userRouter from "./Server/Routes/userRoute.js";
 import bodyParser from "body-parser";
-import donationRouter from "./Server/Routes/donationRoute";
+import donationRouter from "./Server/Routes/donationRoute.js";
 import cors from "cors";
 
 
