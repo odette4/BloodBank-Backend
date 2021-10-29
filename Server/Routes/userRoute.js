@@ -16,7 +16,7 @@ DataChecker.validatePhoneDuplication,
 userController.signupUser);
 
 
-userRouter.get("/signin", userController.signinUser);
+userRouter.post("/signin", userController.signinUser);
 
 
 userRouter.get("/all",verifyToken, verifyAccess("hospital"), userController.getAllUsers);
